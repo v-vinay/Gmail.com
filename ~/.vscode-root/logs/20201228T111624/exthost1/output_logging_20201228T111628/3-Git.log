@@ -11120,3 +11120,91 @@ fatal: no upstream configured for branch 'master'
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/Mail.css
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git cat-file -s 456fbb839699890b1edf1a7e4ec9aff585681507
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show --textconv :src/Mail.css
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/Mail.js
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/Mail.js
+> git cat-file -s e761befef7de36e675d03ca91a5aeb19f7a4dc86
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/ListView.js
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/ListView.js
+> git cat-file -s 8c64f53d79abb195f0725891e694ff9b0ad9b4a1
+> git show --textconv :src/ListView.css
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/ListView.css
+> git cat-file -s 007d92678ecc93abfd375c8ff796035807ad4e1a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/Mail.css
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/Mail.css
+> git cat-file -s 456fbb839699890b1edf1a7e4ec9aff585681507
+> git show --textconv :src/ListView.css
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/ListView.css
+> git cat-file -s 007d92678ecc93abfd375c8ff796035807ad4e1a
+> git show --textconv :src/ListView.js
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/ListView.js
+> git cat-file -s 8c64f53d79abb195f0725891e694ff9b0ad9b4a1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/ListView.css
+> git ls-files --stage -- /home/vinay/project/gmail-clone/src/ListView.css
+> git cat-file -s 007d92678ecc93abfd375c8ff796035807ad4e1a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

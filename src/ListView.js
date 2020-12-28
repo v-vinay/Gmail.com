@@ -39,7 +39,7 @@ function ListView({id, title, subject, time, description}) {
                     </span>
                 </h4>
             </div>
-            <p className="mail-time">
+            <p className="mail-timeStamp">
                 {time}
             </p>
             

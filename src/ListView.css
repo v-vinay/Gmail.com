@@ -37,9 +37,9 @@
     flex: 0.3;
 }
 
-.mail-time {
+.mail-timeStamp {
     padding-right: 15px;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: bold;
 }
 
