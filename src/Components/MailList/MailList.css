@@ -3,6 +3,10 @@
     overflow: scroll;
 }
 
+.mail-list::-webkit-scrollbar {
+    display: none;
+}
+
 .mail-list-settings {
     display: flex;
     justify-content: space-between;
@@ -20,4 +24,8 @@
     background-color: white;
     border-bottom: 1px solid whitesmoke;
     z-index: 999;
+}
+
+.list {
+    padding-bottom: 10%;
 }

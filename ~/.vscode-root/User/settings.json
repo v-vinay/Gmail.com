@@ -1,4 +1,9 @@
 {
     "files.autoSave": "afterDelay",
     "window.zoomLevel": 1,
-    "emmet.includeLanguages": { "javascript":"javascriptreact" }}
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false
+}

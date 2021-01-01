@@ -1,0 +1,10 @@
+[2021-01-01 10:13:30.820] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/vinay/project/gmail-clone/.vscode'
+[2021-01-01 10:13:30.820] [renderer1] [error] Error: Unable to read file '/home/vinay/project/gmail-clone/src/ListView.css' (Error: Unable to resolve non-existing file '/home/vinay/project/gmail-clone/src/ListView.css')
+    at Object.t.createErrorWithActions (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:56:955)
+    at w.handleSetInputError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6366:120)
+    at w.handleSetInputError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6368:776)
+    at w.setInput (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6365:827)
+    at async p.doSetInput (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4688:840)
+    at async p.openEditor (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4687:425)
+    at async file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:7002:617
+    at async e.restoreEditors (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6995:609)

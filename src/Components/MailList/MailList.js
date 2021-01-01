@@ -1,10 +1,10 @@
 import { IconButton, Checkbox } from '@material-ui/core';
 import { ArrowDropDown, ChevronLeft, ChevronRight, Inbox, KeyboardHide, LocalOffer, MoreVert, People, Redo, Settings } from '@material-ui/icons';
 import React, {useEffect, useState} from 'react'
-import { db } from './firebase';
-import ListView from './ListView';
+import { db } from '../../firebase';
+import ListView from '../ListView/ListView';
 import "./MailList.css";
-import Section from './Section';
+import Section from '../Section/Section';
 
 function MailList() {
     const [emails, setEmails] = useState([]);
@@ -20,7 +20,6 @@ function MailList() {
           )
         );
     }, []);
-    console.log(emails)
     return (
         <div className="mail-list">
             <div className="mail-list-settings">

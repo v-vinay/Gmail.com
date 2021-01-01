@@ -4,8 +4,8 @@ import React from 'react'
 import {useDispatch} from 'react-redux'
 import { useForm } from 'react-hook-form';
 import "./SendMail.css";
-import {closeSendMessage} from "./features/MailSlice";
-import { db } from './firebase';
+import {closeSendMessage} from "../../features/MailSlice";
+import { db } from '../../firebase';
 import firebase from 'firebase';
 
 function SendMail() {

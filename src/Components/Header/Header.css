@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left > img {
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.header-mid {
+    align-items: center;
+    display: flex;
+    flex: 0.7;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-mid > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.header-mid > input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header-right {
+    display: flex;
+    padding-right: 20px;
+}
+
+.drop-down-options {
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    background-color: white;
+    width: 30%;
+    max-width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+    z-index: 1000;
+    padding: 10px;
+}
+
+.header-options {
+    display: flex;
+    padding: 13px;
+    justify-content: left;
+    align-items: center;
+}
+
+.user-details {
+    margin-left: 10px;
+}
+
+.sign-out {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    min-width: 200px;
+    cursor: pointer;
+    border-width: 0 !important;
+}
+
+.sign-out:hover {
+    background-color: whitesmoke;
+}
+
+.sign-out > h4 {
+    font-size: 14px;
+    margin-left: 15px;
+    color: grey;
+}

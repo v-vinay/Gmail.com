@@ -4,7 +4,7 @@ import React from 'react'
 import {useSelector} from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import "./Mail.css";
-import {selectOpenMail} from "./features/MailSlice";
+import {selectOpenMail} from "../../features/MailSlice";
 function Mail() {
 
     const history = useHistory();

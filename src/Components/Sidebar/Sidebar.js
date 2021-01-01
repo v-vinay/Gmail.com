@@ -4,8 +4,8 @@ import InboxIcon from '@material-ui/icons/Inbox';
 import React from 'react'
 import {useDispatch} from 'react-redux'
 import "./Sidebar.css";
-import SidebarOptions from './SidebarOptions';
-import {openSendMessage} from "./features/MailSlice"
+import SidebarOptions from '../SidebarOptions/SidebarOptions';
+import {openSendMessage} from "../../features/MailSlice"
 function Sidebar() {
     const dispatch = useDispatch();
     return (
